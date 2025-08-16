@@ -7,7 +7,7 @@ services:
       CONTAINER_TIMEZONE: America/Santiago
       TZ: America/Santiago
     ports:
-      - "5800:5800"
+      - "6800:5800"
     volumes:
       - "./mkvtoolnix:/config:rw"
       - "/home/user:/storage:rw"
